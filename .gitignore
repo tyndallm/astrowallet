@@ -1,0 +1,15 @@
+# bs
+.DS_Store
+
+# Logs
+npm-debug.log*
+
+# Test coverage
+coverage
+
+# Dependencies
+node_modules/
+
+# Local config
+.env
+src/config/local.js

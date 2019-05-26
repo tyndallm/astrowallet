@@ -1,0 +1,40 @@
+{
+  "name": "astrowallet-api",
+  "version": "1.0.0",
+  "description": "Astrowallet is a slack based Ethereum wallet",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@0x/subproviders": "^4.1.0",
+    "@0xproject/utils": "^2.0.2",
+    "@0xproject/web3-wrapper": "^3.0.3",
+    "@slack/web-api": "^5.0.1",
+    "axios": "^0.18.0",
+    "bignumber.js": "^8.1.1",
+    "bugsnag": "^2.4.3",
+    "config": "^3.1.0",
+    "dotenv-safe": "^6.1.0",
+    "ethers": "^4.0.27",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-combine-routers": "^4.0.2",
+    "koa-compress": "^3.0.0",
+    "koa-cors": "^0.0.16",
+    "koa-helmet": "^4.1.0",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "lodash": "^4.17.11",
+    "memory-cache": "^0.2.0",
+    "moment": "^2.24.0",
+    "mongoose": "^5.5.7",
+    "mongoose-paginate": "^5.0.3",
+    "ms": "^2.1.1",
+    "shortid": "^2.2.14",
+    "signale": "^1.4.0"
+  }
+}
